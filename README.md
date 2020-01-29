@@ -8,7 +8,8 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) str
 
 1. Take as input, peripheral blood smear image slides per patient/human.
 
-2. Train an algorithm to distinquish between nCov positive and negatives.
+2. Train an algorithm to distinquish between nCov positive and negatives, using a Convolutional neural network.
+   * Pass each input image through a super resolution filter or generative adversarial image resolution producer if applicable.
 
 3. Produced trained algorithm with the ability to within milliseconds, return prediction or classification of new unlabelled image smears.
 

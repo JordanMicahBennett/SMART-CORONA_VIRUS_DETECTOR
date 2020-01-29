@@ -11,7 +11,7 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) str
 2. Train an algorithm to distinquish between nCov positives and negatives, using a Convolutional neural network and the labelled image smears from (1), optimally using federated data associated with nCov.
     * Pass each input image through a super resolution filter or generative adversarial image resolution producer if applicable.
 
-3. Produce trained algorithm with the ability to within milliseconds, return prediction or classification of new unlabelled image smears.
+3. Produce trained algorithm with the ability to within milliseconds, return prediction or classification of new unlabelled image smears, aka detect new cases.
   
 
 

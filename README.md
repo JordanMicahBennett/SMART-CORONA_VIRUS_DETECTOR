@@ -22,4 +22,4 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) str
 
 
 # CALL FOR CONTRIBUTION
-I am yet to identify all the tools that may required for this project, and I have not yet determined if the steps are feasible. Free to join in to contribute.
+I am yet to identify all the tools that may required for this project, and I have not yet determined if the steps are feasible. Software developers/machine learning practitioners could join in to contribute.

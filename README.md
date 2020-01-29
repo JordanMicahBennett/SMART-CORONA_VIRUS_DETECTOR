@@ -12,6 +12,8 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) str
 
 3. Try to identify whether the super-resolved image contains white blood cells that are consistent with the coronavirus.
 
+4. Regarding [haematological diagnosis](https://en.wikipedia.org/wiki/Hematology), the steps above seek to create quickly available super resolution methods, as a potential replacement for microscopy.
+
 
 # WHY?
 

@@ -6,13 +6,11 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) str
 
 # PLANNED STEPS
 
-1. Take as input, blood sample/spatter against a white or clear background.
+1. Take as input, peripheral blood smear image slides per patient/human.
 
-2. Apply super-resolution to that image using a generative adversarial neural network.
+2. Train an algorithm to distinquish between nCov positive and negatives.
 
-3. Try to identify whether the super-resolved image contains white blood cells that are consistent with the coronavirus.
-
-4. Regarding [haematological diagnosis](https://en.wikipedia.org/wiki/Hematology), the steps above seek to utilize super resolution methods, as a potential replacement for microscopy, from which classification of coronavirus associated white blood cells may take place?
+3. Produced trained algorithm with the ability to within milliseconds, return prediction or classification of new unlabelled image smears.
 
 
 # WHY?

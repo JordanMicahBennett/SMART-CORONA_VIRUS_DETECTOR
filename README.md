@@ -19,7 +19,7 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020
 
 * The nCov 2019 (Coronavirus Strain 2019/2020) is spreading rapidly, with a [mortality rate between 2% and 4%](https://www.worldometers.info/coronavirus/).  
     * By comparison, the common flu with a **far lower mortality rate of .1%**, [kills 291,000 to 646,000](https://www.medicinenet.com/script/main/art.asp?articlekey=208914) per year.
-    * nCov spreads at ~tripple the transmission rate of the common flu. 
+    * To make things worse, nCov spreads at ~tripple the transmission rate of the common flu. 
        * Common flu RO = 1.28 ([Estimated, transmission rate](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480))
        * nCov RO = 2.5 to 3.8 ([Estimated transmission rate](https://www.sciencenews.org/article/how-new-wuhan-coronavirus-stacks-up-against-sars-mers))
 * Current screening methods may miss the presence of the virus because:

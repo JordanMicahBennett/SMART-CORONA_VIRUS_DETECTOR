@@ -31,4 +31,4 @@ I am yet to identify all the tools that may required for this project, and I hav
 
 [Google 25 million datasets](https://datasetsearch.research.google.com)
 
-* Note: Some of the Google datasets above may not comply with the data type specied in the "PLANNED STEPS" segment of my page.
+* Note: Some of the Google datasets pertaining to nCov above may not comply with the data type specied in the "PLANNED STEPS" segment of my page.

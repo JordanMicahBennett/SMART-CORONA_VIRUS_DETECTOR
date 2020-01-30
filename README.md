@@ -38,10 +38,13 @@ I am yet to identify all the tools that may required for this project, and I hav
 
 
 # DATA?
+* [CDC/Genome nCov data via China](https://www.cdc.gov/coronavirus/2019-ncov/summary.html):
+    * [GenBank](https://www.ncbi.nlm.nih.gov/genbank/)
+    * [GSAID](https://www.gisaid.org/)
+* [Google 25 million datasets](https://datasetsearch.research.google.com)
 
-[Google 25 million datasets](https://datasetsearch.research.google.com)
+    * Note: Some of the Google datasets pertaining to nCov above may not comply with the data type specied in the "PLANNED STEPS" segment of my page.
 
-* Note: Some of the Google datasets pertaining to nCov above may not comply with the data type specied in the "PLANNED STEPS" segment of my page.
 
 # REAL TIME TRACKING OF NCOV 2019/2020
 

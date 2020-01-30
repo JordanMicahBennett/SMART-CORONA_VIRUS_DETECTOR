@@ -2,7 +2,7 @@
 Jordan Micah Bennett, software engineer
 
 # SMART-NCOV-CORONA_VIRUS_DETECTOR
-The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) strain, with the plan to use convolutional neural networks and generative adversarial neural networks.
+The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020) strain, with the plan to use convolutional neural networks and generative adversarial neural networks.
 
 # PLANNED STEPS
 
@@ -17,8 +17,11 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) str
 
 # WHY?
 
-* The nCov 2019 (Coronavirus Strain 2019) is spreading, with a [mortality rate between 2% and 4%](https://www.worldometers.info/coronavirus/).  
+* The nCov 2019 (Coronavirus Strain 2019/2020) is spreading rapidly, with a [mortality rate between 2% and 4%](https://www.worldometers.info/coronavirus/).  
     * By comparison, the common flu with a **far lower mortality rate of .1%**, [kills 291,000 to 646,000](https://www.medicinenet.com/10_facts_about_flu_shots_pictures_slideshow/article.htm) per year.
+    * nCov spreads at ~tripple the transmission rate of the common flu. 
+       * Common flu RO = 1.28 (Basically, transmission tate)
+       * nCov RO = 2.5 to 3.8 ([Estimated transmission rate](https://www.sciencenews.org/article/how-new-wuhan-coronavirus-stacks-up-against-sars-mers))
 * Current screening methods may miss the presence of the virus because:
     * The incubation period may constitute 0 symptoms, so temperature scans may miss carriers [with 0 symptoms during incubation](https://www.japantimes.co.jp/news/2020/01/26/asia-pacific/science-health-asia-pacific/fever-china-virus-detection-harder/).
     * Over the counter pills can be used to lower temperature, again, [averting the temperature scanning/screening measures](https://www.dailymail.co.uk/health/article-7924801/Chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-France.html).

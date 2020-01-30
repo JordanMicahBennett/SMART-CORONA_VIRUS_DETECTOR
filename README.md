@@ -45,6 +45,6 @@ I am yet to identify all the tools that may required for this project, and I hav
 
 # REAL TIME TRACKING OF NCOV 2019/2020
 
-![Alt Text](https://github.com/JordanMicahBennett/ROBOTIZE_JA/blob/master/data/logo.png)
+![Alt Text](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/nCov%20tracking.png?raw=true)
 
 https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6

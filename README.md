@@ -4,7 +4,7 @@ Jordan Micah Bennett, software engineer
 # SMART-NCOV-CORONA_VIRUS_DETECTOR
 The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020) strain, with the plan to use convolutional neural networks and generative adversarial neural networks.
 
-As this is the first known attempt to at collaborating to construct this type of program, please point to open source packages that aim to perform similar functions. Please email jordanmicahbennett@gmail.com
+As this is the first known attempt to at collaborating to construct this type of program, please point to open source packages with similar goals. Please email jordanmicahbennett@gmail.com
 
 
 

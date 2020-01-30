@@ -7,7 +7,7 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020
 As this is the first known attempt to at collaborating to construct this type of program, please point to open source packages with similar goals. Please email jordanmicahbennett@gmail.com
 
 
-# World Health Organization (WHO) WARNING
+# WORLD HEALTH ORGANIZATION (WHO) WARNING
 [Coronavirus: Whole world 'must take action', warns WHO](https://www.bbc.com/news/world-asia-china-51299195)    
    * This warning could have come about a week earlier, [as advised about a week ago via Chris Martenson](https://www.youtube.com/watch?v=Nk5P_iRYwTY), who I also refer to below regarding his 115 million nCov case prediction count.
 

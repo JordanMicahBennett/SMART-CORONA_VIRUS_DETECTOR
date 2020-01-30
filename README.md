@@ -22,7 +22,7 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) str
     * The incubation period may constitute 0 symptoms, so temperature scans may miss carriers [with 0 symptoms during incubation](https://www.japantimes.co.jp/news/2020/01/26/asia-pacific/science-health-asia-pacific/fever-china-virus-detection-harder/).
     * Over the counter pills can be used to lower temperature, again, [averting the temperature scanning/screening measures](https://www.dailymail.co.uk/health/article-7924801/Chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-France.html).
 * This ai driven method will reasonably help to stop [the exponential growth](http://www.renewamerica.com/columns/cherry/200126) of the nCov strain. 
-    * 1 more month of exponential nCov growth = [115 million cases, (of which 23 million are life threatening ones)](https://www.youtube.com/watch?v=Yq3Y9rmlEQE) according to an epidemiologist.
+    * 1 more month of exponential nCov growth = [~ 115 million cases, (of which ~ 23 million are life threatening ones)](https://www.youtube.com/watch?v=Yq3Y9rmlEQE) according to an epidemiologist.
     
 
 # CALL FOR CONTRIBUTION

@@ -7,6 +7,10 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020
 As this is the first known attempt to at collaborating to construct this type of program, please point to open source packages with similar goals. Please email jordanmicahbennett@gmail.com
 
 
+# World Health Organization (WHO) WARNING
+[Coronavirus: Whole world 'must take action', warns WHO](https://www.bbc.com/news/world-asia-china-51299195)
+
+
 
 # PLANNED STEPS
 

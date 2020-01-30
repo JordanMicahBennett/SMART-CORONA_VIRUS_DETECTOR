@@ -4,6 +4,10 @@ Jordan Micah Bennett, software engineer
 # SMART-NCOV-CORONA_VIRUS_DETECTOR
 The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020) strain, with the plan to use convolutional neural networks and generative adversarial neural networks.
 
+As this is the first known attempt to at collaborating to construct this type of program, please point to open source packages that aim to perform similar functions. Please email jordanmicahbennett@gmail.com
+
+
+
 # PLANNED STEPS
 
 1. Take as input, peripheral blood smear image slides per patient/human.
@@ -38,3 +42,9 @@ I am yet to identify all the tools that may required for this project, and I hav
 [Google 25 million datasets](https://datasetsearch.research.google.com)
 
 * Note: Some of the Google datasets pertaining to nCov above may not comply with the data type specied in the "PLANNED STEPS" segment of my page.
+
+# REAL TIME TRACKING OF NCOV 2019/2020
+
+![Alt Text](https://github.com/JordanMicahBennett/ROBOTIZE_JA/blob/master/data/logo.png)
+
+https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6

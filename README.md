@@ -36,6 +36,8 @@ As this is the first known attempt to at collaborating to construct this type of
 # CALL FOR CONTRIBUTION
 I am yet to identify all the tools that may required for this project, and I have not yet determined if the steps are feasible. Software developers/machine learning practitioners could join in to contribute.
 
+I encourage, or rather, the numbers above indicate that a non-trivial percentage of programming time/effort be placed into this endeavour, via all volunteers.
+
 
 # DATA?
 * [CDC/Genome nCov data via China](https://www.cdc.gov/coronavirus/2019-ncov/summary.html):

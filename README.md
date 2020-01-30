@@ -25,3 +25,10 @@ The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019) str
 
 # CALL FOR CONTRIBUTION
 I am yet to identify all the tools that may required for this project, and I have not yet determined if the steps are feasible. Software developers/machine learning practitioners could join in to contribute.
+
+
+# DATA?
+
+[Google 25 million datasets](https://datasetsearch.research.google.com)
+
+    * Note: Some of the Google datasets above may not comply with the data type specied in the steps segment of my page.

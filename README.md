@@ -51,7 +51,7 @@ As this is the first known attempt, [commencing on January 29 2020](https://gith
     
 
 # CALL FOR CONTRIBUTION
-I am yet to identify all the tools that may required for this project, and I have not yet determined if the steps are feasible. Software developers/machine learning practitioners/Ai developers could join in to contribute.
+Although I am now experimenting with [Janggu](https://github.com/BIMSBbioinfo/janggu), I am yet to entirely identify all the tools that may required for this project, and I have not yet determined if the steps are robust. Software developers/machine learning practitioners/Ai developers could join in to contribute.
 
 I encourage, or rather, the numbers above indicate that a non-trivial percentage of programming time/effort be placed into this endeavour, via all volunteers.
 

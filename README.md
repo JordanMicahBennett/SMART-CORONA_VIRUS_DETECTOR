@@ -49,11 +49,14 @@ I encourage, or rather, the numbers above indicate that a non-trivial percentage
 
 # DATA?
 * [CDC/Genome nCov data via China](https://www.cdc.gov/coronavirus/2019-ncov/summary.html):
-    * [GenBank](https://www.ncbi.nlm.nih.gov/genbank/)  →   ["GenBank/nCov search](https://www.ncbi.nlm.nih.gov/nuccore/?term=nCov) → [Genbank/Usa/Wuhan seafood nCov complete genome](https://www.ncbi.nlm.nih.gov/nuccore/MN985325.1)
-    * [GISAID](https://www.gisaid.org/)
+    * [nCov Positive Data Source/GenBank](https://www.ncbi.nlm.nih.gov/genbank/)  →   ["GenBank/nCov search](https://www.ncbi.nlm.nih.gov/nuccore/?term=nCov) → [Genbank/Usa/Wuhan seafood nCov complete genome](https://www.ncbi.nlm.nih.gov/nuccore/MN985325.1)
+    * [nCov Positive Data Source/GISAID](https://www.gisaid.org/)
+    * [nCov Negative Data Source/1000 Genomes Project](https://www.internationalgenome.org/)
          * Using the genomics data above, may be suitable for [ai based genomic analysis](https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-019-0689-8), via [genomic deep learning](https://www.nature.com/articles/s41598-019-53989-3).
          * Suggested genome deep learning library, which deals with data in [Genbank/FASTA](https://www.ncbi.nlm.nih.gov/genbank/) format: [Janggu](https://github.com/BIMSBbioinfo/janggu)
+              
 * [Google 25 million datasets](https://datasetsearch.research.google.com)
+        
 
     * Note: Some of the Google datasets pertaining to nCov above may not comply with the data type specied in the "PLANNED STEPS" segment of my page.
 

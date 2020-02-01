@@ -4,6 +4,13 @@ Jordan Micah Bennett, software engineer/creator of ["RobotizeJa"](https://github
 # SMART-NCOV-CORONA_VIRUS_DETECTOR
 The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020) strain, with the plan to use convolutional neural networks and generative adversarial neural networks.
 
+A viable path could resemble:
+
+   * (a) Dna from person to be screened → (b) Genome data from MinION device → (c) Trained algorithm that has been built to distinguish between nCov -positive genome data, and healthy or rather nCov-negative genome data → (d) prediction-classes: nCov[~1] or no-nCov [~0]
+
+   * Based on the available data/nCov genome information, this solution may generate an optimal way of quickly identifying new nCov cases, and replace insufficient temperature/thermometer "screening" processes.
+
+
 As this is the first known attempt, [commencing on January 29 2020](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/commit/49984b40847eb168800f0874bae7f8a0f2e20991) aimed collaborating to construct this type of program, please point to open source packages with similar goals. Please email jordanmicahbennett@gmail.com
 
 
@@ -23,16 +30,6 @@ As this is the first known attempt, [commencing on January 29 2020](https://gith
 
 3. Invoke trained algorithm with the ability to within milliseconds, return prediction or classification of new unlabelled genome data (i.e. a person at the airport or quarantine room), aka detect new cases with good accuracy/confidence, of the latest nCov/coronavirus.
   
-
-# SUMMARY
-
-The goal is to get as close to real time in detection as possible MinION dna sequencer device, which is said to be able to produce genomes in seconds from dna samples.
-
-(a) Dna from person to be screened → (b) Genome data from MinION device → (c) Trained algorithm that has been built to distinguish between nCov -positive genome data, and healthy or rather nCov-negative genome data → (d) prediction-classes: nCov[~1] or no-nCov [~0]
-
-Based on the available data/nCov genome information, this solution may generate an optimal way of quickly identifying new nCov cases, and replace insufficient temperature/thermometer "screening" processes.
-
-
 
 
 # WHY?

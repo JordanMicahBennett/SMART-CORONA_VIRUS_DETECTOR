@@ -58,7 +58,7 @@ I encourage, or rather, the numbers above indicate that a non-trivial percentage
 * [Google 25 million datasets](https://datasetsearch.research.google.com)
         
 
-    * Note: Some of the Google datasets pertaining to nCov above may not comply with the data type specied in the "PLANNED STEPS" segment of my page.
+    * Note: Some of the Google and or Genome datasets pertaining to nCov above may not comply with the data type specied in the "PLANNED STEPS" segment of my page. The genomic method is an alternate path to the PLANNED STEPS, consisting of Genome strands as the modality of input, rather than the blood smear image slides in the PLANNED STEPS. Suggestions for other paths are welcome.
 
 
 # REAL TIME TRACKING OF NCOV 2019/2020

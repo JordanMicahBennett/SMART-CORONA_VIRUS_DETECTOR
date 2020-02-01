@@ -24,6 +24,16 @@ As this is the first known attempt, [commencing on January 29 2020](https://gith
 3. Invoke trained algorithm with the ability to within milliseconds, return prediction or classification of new unlabelled genome data (i.e. a person at the airport or quarantine room), aka detect new cases with good accuracy/confidence, of the latest nCov/coronavirus.
   
 
+# SUMMARY
+
+The goal is to get as close to real time in detection as possible MinION dna sequencer device, which is said to be able to produce genomes in seconds from dna samples.
+
+(a) Dna from person to be screened → (b) Genome data from MinION device → (c) Trained algorithm that has been built to distinguish between nCov -positive genome data, and healthy or rather nCov-negative genome data → (d) prediction-classes: nCov[~1] or no-nCov [~0]
+
+Based on the available data/nCov genome information, this solution may generate an optimal way of quickly identifying new nCov cases, and replace insufficient temperature/thermometer "screening" processes.
+
+
+
 
 # WHY?
 

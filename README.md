@@ -17,7 +17,7 @@ As this is the first known attempt, [commencing on January 29 2020](https://gith
 # PLANNED STEPS
 
 1. Take as input, human genome data.
-    * MinION genome sequencer can produce this information in "seconds".
+    * [MinION genome sequencer can produce this information in "seconds"](https://nanoporetech.com/products/minion).
 
 2. Train an algorithm to distinquish between nCov positives and negatives, using an artificial neural network together with the labelled genome information, taking labelled sets of nCov positive genome data, together with nCov negative/absent genome data.
 

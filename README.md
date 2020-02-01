@@ -4,7 +4,7 @@ Jordan Micah Bennett, software engineer/creator of ["RobotizeJa"](https://github
 # SMART-NCOV-CORONA_VIRUS_DETECTOR
 The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020) strain, with the plan to use convolutional neural networks and generative adversarial neural networks.
 
-As this is the first known attempt to at collaborating to construct this type of program, please point to open source packages with similar goals. Please email jordanmicahbennett@gmail.com
+As this is the first known attempt, [commencing on January 29](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/commit/49984b40847eb168800f0874bae7f8a0f2e20991) aimed collaborating to construct this type of program, please point to open source packages with similar goals. Please email jordanmicahbennett@gmail.com
 
 
 # WORLD HEALTH ORGANIZATION (WHO) WARNING
@@ -37,6 +37,8 @@ As this is the first known attempt to at collaborating to construct this type of
     * Over the counter pills can be used to lower temperature, again, [averting the temperature scanning/screening measures](https://www.dailymail.co.uk/health/article-7924801/Chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-France.html).
 * This ai driven method will reasonably help to **stop** [the exponential growth](http://www.renewamerica.com/columns/cherry/200126) of the nCov strain. 
     * 1 more month of exponential nCov growth = [~ 115 million cases, (of which ~ 23 million are potentially life threatening ones)](https://www.youtube.com/watch?v=Yq3Y9rmlEQE) according to [an epidemiologist/PhD pathologist](https://en.wikipedia.org/wiki/Christopher_Martenson).
+    * January 1, 2010 Update: As an example, there has been one confirmed Asymptomaticdriven case, where the virus has been spread by a person without symptoms:
+        * [Study Reports First Case of Coronavirus Spread by Asymptomatic Person](Study Reports First Case of Coronavirus Spread by Asymptomatic Person)
     
 
 # CALL FOR CONTRIBUTION

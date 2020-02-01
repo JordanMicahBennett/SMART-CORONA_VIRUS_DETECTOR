@@ -35,10 +35,11 @@ As this is the first known attempt, [commencing on January 29 2020](https://gith
 * Current screening methods may miss the presence of the virus because:
     * The incubation period may constitute 0 symptoms, so temperature scans may miss carriers [with 0 symptoms during incubation](https://www.japantimes.co.jp/news/2020/01/26/asia-pacific/science-health-asia-pacific/fever-china-virus-detection-harder/).
     * Over the counter pills can be used to lower temperature, again, [averting the temperature scanning/screening measures](https://www.dailymail.co.uk/health/article-7924801/Chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-France.html).
+    * January 31, 2020 Update: As an example, there has been one confirmed Asymptomatic driven case, where the virus has been spread by a person without symptoms:
+        * [Study Reports First Case of Coronavirus Spread by Asymptomatic Person](https://www.scientificamerican.com/article/study-reports-first-case-of-coronavirus-spread-by-asymptomatic-person/)
 * This ai driven method will reasonably help to **stop** [the exponential growth](http://www.renewamerica.com/columns/cherry/200126) of the nCov strain. 
     * 1 more month of exponential nCov growth = [~ 115 million cases, (of which ~ 23 million are potentially life threatening ones)](https://www.youtube.com/watch?v=Yq3Y9rmlEQE) according to [an epidemiologist/PhD pathologist](https://en.wikipedia.org/wiki/Christopher_Martenson).
-    * January 31, 2020 Update: As an example, there has been one confirmed Asymptomaticdriven case, where the virus has been spread by a person without symptoms:
-        * [Study Reports First Case of Coronavirus Spread by Asymptomatic Person](https://www.scientificamerican.com/article/study-reports-first-case-of-coronavirus-spread-by-asymptomatic-person/)
+
     
 
 # CALL FOR CONTRIBUTION

@@ -16,12 +16,12 @@ As this is the first known attempt, [commencing on January 29 2020](https://gith
 
 # PLANNED STEPS
 
-1. Take as input, peripheral blood smear image slides per patient/human.
+1. Take as input, human genome data.
+    * MinION genome sequencer can produce this information in "seconds".
 
-2. Train an algorithm to distinquish between nCov positives and negatives, using a Convolutional neural network and the labelled image smears from (1), optimally using federated data associated with nCov.
-    * Pass each input image through a super resolution filter or generative adversarial image resolution producer if applicable.
+2. Train an algorithm to distinquish between nCov positives and negatives, using an artificial neural network together with the labelled genome information, taking labelled sets of nCov positive genome data, together with nCov negative/absent genome data.
 
-3. Invoke trained algorithm with the ability to within milliseconds, return prediction or classification of new unlabelled image smears, aka detect new cases with good accuracy/confidence, of the latest nCov/coronavirus.
+3. Invoke trained algorithm with the ability to within milliseconds, return prediction or classification of new unlabelled genome data (i.e. a person at the airport or quarantine room), aka detect new cases with good accuracy/confidence, of the latest nCov/coronavirus.
   
 
 

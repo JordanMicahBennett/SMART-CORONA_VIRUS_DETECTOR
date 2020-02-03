@@ -71,7 +71,7 @@ I encourage, or rather, the numbers above indicate that a non-trivial percentage
 
 # REAL TIME TRACKING OF NCOV 2019/2020
 
-By extension, the tool by researchers at John Hopkins University below, is useful for real time tracking of nCov:
+By extension, [the tool by researchers at John Hopkins University](https://edition.cnn.com/2020/01/29/health/coronavirus-map-real-time-tracking-trnd/index.html) below, is useful for real time tracking of nCov:
 
 ![Alt Text](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/nCov%20tracking.png?raw=true)
 

@@ -78,4 +78,4 @@ By extension, [the tool by researchers at John Hopkins University](https://editi
 
 https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 
-Note that despite the ~14,000 infection-case number reported via China, a [medical scientific paper estimates ~105,000 infections](https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2.full.pdf).
+Note that despite the ~14,000 infection-case number reported via China, a [medical scientific paper estimates ~105,000 infections](https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2.full.pdf). All sources thus far ought to be scrutinized, as is typical in scientfic endeavour.

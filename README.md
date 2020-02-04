@@ -52,7 +52,7 @@ As this is the first known attempt, [commencing on January 29 2020](https://gith
     
 
 # CALL FOR CONTRIBUTION
-Although I am now experimenting with [Janggu](https://github.com/BIMSBbioinfo/janggu) and [ViralMiner](https://github.com/NeuroCSUT/ViraMiner)...see [associated paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6738585/), I am yet to entirely identify all the tools that may required for this project, and I have not yet determined if the steps are robust enough. Software developers/machine learning practitioners/Ai developers could join in to contribute.
+Although I am now experimenting with [Janggu](https://github.com/BIMSBbioinfo/janggu) and [ViralMiner](https://github.com/NeuroCSUT/ViraMiner)...(see [associated paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6738585/)), I am yet to entirely identify all the tools that may required for this project, and I have not yet determined if the steps are robust enough. Software developers/machine learning practitioners/Ai developers could join in to contribute.
 
 I encourage, or rather, the numbers above indicate that a non-trivial percentage of programming time/effort be placed into this endeavour, via all volunteers.
 

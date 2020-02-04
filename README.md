@@ -77,3 +77,5 @@ By extension, [the tool by researchers at John Hopkins University](https://editi
 ![Alt Text](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/nCov%20tracking.png?raw=true)
 
 https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+
+Note that despite the ~14,000 infection-case number reported via China, a [medical scientific paper estimates ~105,000 infections](https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2.full.pdf).

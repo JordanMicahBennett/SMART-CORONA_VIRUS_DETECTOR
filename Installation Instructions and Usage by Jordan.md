@@ -1,7 +1,7 @@
 Author: Jordan Bennett
 =========
 
-This pertains to [Project - Smart Coronavirus Detector](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/README.md).
+This pertains to [Project - Smart Coronavirus Detector](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/README.md) by Jordan.
 
 
 Notes: 

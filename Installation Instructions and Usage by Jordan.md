@@ -3,12 +3,12 @@ Author: Jordan Bennett
 
 Notes: 
 =========
-* Note that the original ViralMiner repo does not contain any installation instructions. 
-* Python2.7 support died in January 2020, so lots of things are depracated, and setup took several hours. As a result:
+* Note that the original [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo does not contain any installation instructions. 
+* Python2.7 support (that the [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo is written in) [died in January 2020](https://pythonclock.org/), so lots of things are depracated, and setup took several hours. As a result:
 	* I had to patch Python2.7 by doing small actions like copying/pasting dlls etc from place to place.
 	* I also had to modify some of the ViralMiner code, before anything ran with 0 errors.
  
-* Using ViralMiner's already pretrained models wrt genome deep learning, may be worth the resulting efficiency gained in genome analysis and identification in human samples, related to nCov coronavirus 2019 genome datasets released via China seen below in the "DATA" section.
+* Using [ViralMiner](https://github.com/NeuroCSUT/ViraMiner)'s already pretrained models wrt genome deep learning, may be worth the resulting efficiency gained in genome analysis and identification in human samples, related to nCov coronavirus 2019 genome datasets released via China seen below in the "DATA" section.
 
 
  
@@ -125,6 +125,6 @@ Quick usage example
 	* "PATH=C:/Python27/;C:/MinGW/bin;C:/Program Files (x86)/Microsoft Visual Studio 9.0/VC/redist/Debug_NonRedist/x86/Microsoft.VC90.DebugCRT"
 	
 3. Finally, use command from original repo, this example is a command I prepared based on the repo:
-	* It should work if you had first naviagated to the repo directory. The command runs on test data of genome sequence information in fullset_test.csv as well as the optimal pretrained models in the repository.
+	* It should work if you had first navigated to the repo directory. The command runs on test data of genome sequence information in fullset_test.csv as well as the optimal pretrained models in the repository.
 	
 	* Command: **python predict_only.py --input_file data/DNA_data/fullset_test.csv --model_path final_ViraMiner/best_ViraMiner_end2end.hdf5 > output_preds.txt**

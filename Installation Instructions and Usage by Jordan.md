@@ -1,6 +1,9 @@
 Author: Jordan Bennett
 =========
 
+This pertains to [Project - Smart Coronavirus Detector](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/README.md).
+
+
 Notes: 
 =========
 * Note that the original [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo does not contain any installation instructions. 

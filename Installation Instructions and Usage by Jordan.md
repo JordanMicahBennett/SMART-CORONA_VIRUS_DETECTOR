@@ -8,6 +8,9 @@ Notes:
 	* I had to patch Python2.7 by doing small actions like copying/pasting dlls etc from place to place.
 	* I also had to modify some of the ViralMiner code, before anything ran with 0 errors.
  
+* Using ViralMiner's already pretrained models wrt genome deep learning, may be worth the resulting efficiency gained in genome analysis and identification in human samples, related to nCov coronavirus 2019 genome datasets released via China seen below in the "DATA" section.
+
+
  
 Patches and non-regular python installs
 =========
@@ -25,21 +28,21 @@ Patches and non-regular python installs
   * https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/+/refs/heads/emu-2.2-release/x86_64-w64-mingw32/lib32
 	
 4.	Add mingw capability to <C>:\Python27\Lib\distutils\distutils.cfg, by adding the following lines:
-		```
+	```
 		[build]
 		compiler=mingw32
-		```
+	```
 
 5.	Switch keras backend to "theano", which is Microsoft's cognitive toolkit in keras json config. (Found in <C>:/Users/<current-username>/.keras/keras.json:
-		```
+	```
 		{
-				"epsilon": 1e-07, 
-				"image_data_format": "channels_last", 
-				"backend": "theano", /*Jordan_note: Alternative = "cntk", which requires Python 2.7.9 equivalent of CUDA 9.0.176, and cuDNN 7.0.5, along with NVidia drivers 384.111*/
-				"device": "cpu",
-				"floatx": "float32" 
+			"epsilon": 1e-07, 
+			"image_data_format": "channels_last", 
+			"backend": "theano", /*Jordan_note: Alternative = "cntk", which requires Python 2.7.9 equivalent of CUDA 9.0.176, and cuDNN 7.0.5, along with NVidia drivers 384.111*/
+			"device": "cpu",
+			"floatx": "float32" 
 		}
-		```
+	```
 
 6.	Download and Install VS2008ExpressENUX1397868.iso (Required to repair vcvarsall.bat related errors. Essentially allows python keras to do important C++ background stuff)
 	* https://download.microsoft.com/download/8/B/5/8B5804AD-4990-40D0-A6AA-CE894CBBB3DC/VS2008ExpressENUX1397868.iso
@@ -124,4 +127,4 @@ Quick usage example
 3. Finally, use command from original repo, this example is a command I prepared based on the repo:
 	* It should work if you had first naviagated to the repo directory. The command runs on test data of genome sequence information in fullset_test.csv as well as the optimal pretrained models in the repository.
 	
-	* COMMAND: python predict_only.py --input_file data/DNA_data/fullset_test.csv --model_path final_ViraMiner/best_ViraMiner_end2end.hdf5 > output_preds.txt
+	* Command: **python predict_only.py --input_file data/DNA_data/fullset_test.csv --model_path final_ViraMiner/best_ViraMiner_end2end.hdf5 > output_preds.txt**

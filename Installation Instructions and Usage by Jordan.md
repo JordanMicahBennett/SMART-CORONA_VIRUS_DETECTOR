@@ -18,12 +18,11 @@ Patches and non-regular python installs
 	* https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
 
 2.   Download and install last version of Python 2.7. (Important to avoid SSL errors, due to depracation wrt to modules required by ViralMiner)
-
-	* https://www.python.org/downloads/release/python-279/
+  * https://www.python.org/downloads/release/python-279/
 	
 3.	From the site below, "libmsvcr90.a", and place in <C>:\Python27\Lib\. (Required to repair vcvarsall.bat related errors. Essentially allows python keras to do important C++ background stuff)
 
-	* https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/+/refs/heads/emu-2.2-release/x86_64-w64-mingw32/lib32
+  * https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/+/refs/heads/emu-2.2-release/x86_64-w64-mingw32/lib32
 	
 4.	Add mingw capability to <C>:\Python27\Lib\distutils\distutils.cfg, by adding the following lines:
 		```
@@ -46,6 +45,22 @@ Patches and non-regular python installs
 	* https://download.microsoft.com/download/8/B/5/8B5804AD-4990-40D0-A6AA-CE894CBBB3DC/VS2008ExpressENUX1397868.iso
 
 
+7. Replicate this modification of mine of the original repository:
+	* This is a replacement of the "def wc ():" function, used in the line "test_set_size = wc(args.input_file)".
+	
+	* Add the following code, then modify the line above to invoke wc2 instead of wc. Wc uses depracated subprocess method to find out information about input file dataset. This information is a count of the test data, and is needed for the machine learning algorithm to work.
+	```
+		def wc2(filename):
+			c = 0
+			with open(filename) as file:
+				while True:
+					chunk = file.read(10 ** 7)
+					if chunk == "":
+						return c
+					c += chunk.count("\n")
+	```
+	
+	
 	
 Regular python installs (download each from PyPi)
 =========
@@ -100,3 +115,13 @@ Regular python installs (download each from PyPi)
 
 Quick usage example
 =========
+
+1. Run cmd.
+
+2. Set path by the following; beyond the typical python path, mingw and visual studio msvcr90.dll paths have been added to resolve vcvarsall.bat related errors:
+	* "PATH=C:/Python27/;C:/MinGW/bin;C:/Program Files (x86)/Microsoft Visual Studio 9.0/VC/redist/Debug_NonRedist/x86/Microsoft.VC90.DebugCRT"
+	
+3. Finally, use command from original repo, this example is a command I prepared based on the repo:
+	* It should work if you had first naviagated to the repo directory. The command runs on test data of genome sequence information in fullset_test.csv as well as the optimal pretrained models in the repository.
+	
+	* COMMAND: python predict_only.py --input_file data/DNA_data/fullset_test.csv --model_path final_ViraMiner/best_ViraMiner_end2end.hdf5 > output_preds.txt

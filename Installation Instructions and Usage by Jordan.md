@@ -6,9 +6,9 @@ This pertains to [Project - Smart Coronavirus Detector](https://github.com/Jorda
 
 Notes: 
 =========
-* Note that the original [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo does not contain any installation instructions, and [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) is based on the depracted Python 2.7, where I did somewhat unorthodox patching etc  to get things running, and so I created a set of instructions here.
+* Note that the original [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo does not contain any installation instructions, and [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) is based on the deprecated Python 2.7, where I did somewhat unorthodox patching etc  to get things running, and so I created a set of instructions here.
 
-* Python2.7 support (that the [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo is written in) [died in January 2020](https://pythonclock.org/), so lots of things are depracated, and setup took several hours. As a result:
+* Python2.7 support (that the [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo is written in) [died in January 2020](https://pythonclock.org/), so lots of things are deprecated, and setup took several hours. As a result:
 	* I had to patch Python2.7 by doing small actions like copying/pasting dlls etc from place to place.
 	* I also had to modify some of the ViralMiner code, before anything ran with 0 errors.
  
@@ -57,7 +57,7 @@ Patches and non-regular python installs
 7. Replicate this modification of mine of the original repository:
 	* This is a replacement of the "def wc ():" function, used in the line "test_set_size = wc(args.input_file)".
 	
-	* Add the following code, then modify the line above to invoke wc2 instead of wc. Wc uses depracated subprocess method to find out information about input file dataset. This information is a count of the test data, and is needed for the machine learning algorithm to work.
+	* Add the following code, then modify the line above to invoke wc2 instead of wc. Wc uses deprecated subprocess method to find out information about input file dataset. This information is a count of the test data, and is needed for the machine learning algorithm to work.
 	```
 		def wc2(filename):
 			c = 0
@@ -139,4 +139,7 @@ Quick usage example
 	* Command: **python predict_only.py --input_file data/DNA_data/fullset_test.csv --model_path final_ViraMiner/best_ViraMiner_end2end.hdf5 > output_preds.txt**
 	
 4. A succeful setup means that you see the following step, with a few warnings, and 0 errors:
+	![Alt Text](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/data/images/successful%20run%20with%200%20errors.gif
+)
+
 	

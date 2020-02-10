@@ -26,11 +26,9 @@ Patches and non-regular python installs
 	* https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
 
 2.   Download and install last version of Python 2.7. (Important to avoid SSL errors, due to depracation wrt to modules required by ViralMiner)
-
 	* https://www.python.org/downloads/release/python-279/
 	
 3.	From the site below, "libmsvcr90.a", and place in <C>:\Python27\Lib\. (Required to repair vcvarsall.bat related errors. Essentially allows python keras to do important C++ background stuff)
-
 	*  https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/+/refs/heads/emu-2.2-release/x86_64-w64-mingw32/lib32
 	
 4.	Add mingw capability to <C>:\Python27\Lib\distutils\distutils.cfg, by adding the following lines:

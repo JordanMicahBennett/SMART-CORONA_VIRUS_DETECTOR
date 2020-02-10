@@ -138,8 +138,9 @@ Quick usage example
 	
 	* Command: **python predict_only.py --input_file data/DNA_data/fullset_test.csv --model_path final_ViraMiner/best_ViraMiner_end2end.hdf5 > output_preds.txt**
 	
-4. A succeful setup means that you see the following step, with a few warnings, and 0 errors:
+4. A successful setup means that you see the following step, with a few warnings, and 0 errors:
 	![Alt Text](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/data/images/successful%20run%20with%200%20errors.gif
 )
 
+5. One of the next steps is to train the model on nCov 2019 - coronavirus genome data, [seen in the project page Data section.](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/README.md).
 	

@@ -6,7 +6,8 @@ This pertains to [Project - Smart Coronavirus Detector](https://github.com/Jorda
 
 Notes: 
 =========
-* Note that the original [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo does not contain any installation instructions. 
+* Note that the original [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo does not contain any installation instructions, and it is based on a depracted Python 2.7 where somewhat unorthodox patching etc is required, and so I created a set of instructions here.
+
 * Python2.7 support (that the [ViralMiner](https://github.com/NeuroCSUT/ViraMiner) repo is written in) [died in January 2020](https://pythonclock.org/), so lots of things are depracated, and setup took several hours. As a result:
 	* I had to patch Python2.7 by doing small actions like copying/pasting dlls etc from place to place.
 	* I also had to modify some of the ViralMiner code, before anything ran with 0 errors.

@@ -57,6 +57,9 @@ Although I am now experimenting with [Janggu](https://github.com/BIMSBbioinfo/ja
 
 I encourage, or rather, the numbers above indicate that a non-trivial percentage of programming time/effort be placed into this endeavour, via all volunteers.
 
+Upate: [See setup, patching, and usage instructions compiled by myself for ViralMiner. ViralMiner uses python 2.7, where support officially died on January 2020, so setup/installation is even less straightforward than normal.](https://github.com/JordanMicahBennett/SMART-CORONA_VIRUS_DETECTOR/blob/master/Installation%20Instructions%20and%20Usage%20by%20Jordan.md)
+  * Using ViralMiner's already pretrained models wrt genome deep learning, may be worth the resulting efficiency gained in genome analysis and identification in human samples, related to nCov coronavirus 2019 genome datasets released via China seen below in the "DATA" section.
+
 
 # DATA?
 * [CDC/Genome nCov data via China](https://www.cdc.gov/coronavirus/2019-ncov/summary.html):

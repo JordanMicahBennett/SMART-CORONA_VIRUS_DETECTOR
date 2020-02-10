@@ -51,27 +51,49 @@ Regular python installs (download each from PyPi)
 =========
 
 1 .	Download and Install cntk-2.7-cp27-cp27m-win_amd64.whl
+
 2 .	Download and Install cntk_gpu-2.7-cp27-cp27m-win_amd64.whl
+
 3 .	Download and Install distribute-0.6.35.tar.gz
+
 4 .	Download and Install enum34-1.1.6.zip
+
 5 .	Download and Install h5py-2.10.0-cp27-cp27m-win_amd64.whl
+
 6 .	Download and Install h5py-2.10.0.tar.gz
+
 7 .	Download and Install Keras-2.3.1.tar.gz
+
 8 .	Download and Install Keras_Applications-1.0.6.tar.gz
+
 9 .	Download and Install Keras_Preprocessing-1.1.0.tar.gz
+
 10.	Download and Install nose-1.3.7.tar.gz
+
 11.	Download and Install numpy-1.16.6.zip
+
 12.	Download and Install matplotlib then install scikit_metrics
+
 13.	Download and Install pip-20.0.2.tar.gz
+
 14.	Download and Install pycuda-2019.1.2.tar.gz
+
 15.	Download and Install python-dateutil-2.8.1.tar.gz
+
 16.	Download and Install python_dateutil-2.8.1-py2.py3-none-any.whl
+
 17.	Download and Install python_dev_tools-2020.2.5.tar.gz
+
 18.	Download and Install pywin-0.3.1.zip
+
 19.	Download and Install setuptools-45.0.0.zip
+
 20.	Download and Install simple0-1.1.tar.gz
+
 21.	Download and Install six-1.14.0.tar.gz
+
 22.	Download and Install svn-1.0.1.tar.gz
+
 23.	Download and Install Theano-1.0.4.tar.gz
 
 

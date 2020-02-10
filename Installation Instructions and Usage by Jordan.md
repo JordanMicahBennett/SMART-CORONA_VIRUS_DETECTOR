@@ -1,6 +1,8 @@
-#Author: Jordan Bennett
+Author: Jordan Bennett
+=========
 
-#Notes: 
+Notes: 
+=========
 * Note that the original ViralMiner repo does not contain any installation instructions. 
 * Python2.7 support died in January 2020, so lots of things are depracated, and setup took several hours. As a result:
 	* I had to patch Python2.7 by doing small actions like copying/pasting dlls etc from place to place.
@@ -10,12 +12,17 @@
 Patches and non-regular python installs
 =========
 1.	Download mingw-get-setup.exe. The link below is cited conveniently from a series of clicks: mingw.org ...Downloads...releases....MinGW Installation Manager (mingw-get) etc
+
+	* Note, in mingw manager below, achieved after a few clicks starting at mingw-get-setup.exe, select "MSYS Base System".
+	
 	* https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
 
 2.   Download and install last version of Python 2.7. (Important to avoid SSL errors, due to depracation wrt to modules required by ViralMiner)
+
 	* https://www.python.org/downloads/release/python-279/
 	
 3.	From the site below, "libmsvcr90.a", and place in <C>:\Python27\Lib\. (Required to repair vcvarsall.bat related errors. Essentially allows python keras to do important C++ background stuff)
+
 	* https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/+/refs/heads/emu-2.2-release/x86_64-w64-mingw32/lib32
 	
 4.	Add mingw capability to <C>:\Python27\Lib\distutils\distutils.cfg, by adding the following lines:

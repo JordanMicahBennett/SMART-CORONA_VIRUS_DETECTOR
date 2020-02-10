@@ -21,14 +21,16 @@ Patches and non-regular python installs
 
 	* Note, in mingw manager below, achieved after a few clicks starting at mingw-get-setup.exe, select "MSYS Base System".
 	
+	* Ensure the installation is in your root directory, like C:/.
+	
 	* https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
 
 2.   Download and install last version of Python 2.7. (Important to avoid SSL errors, due to depracation wrt to modules required by ViralMiner)
-  * https://www.python.org/downloads/release/python-279/
+	* https://www.python.org/downloads/release/python-279/
 	
 3.	From the site below, "libmsvcr90.a", and place in <C>:\Python27\Lib\. (Required to repair vcvarsall.bat related errors. Essentially allows python keras to do important C++ background stuff)
 
-  * https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/+/refs/heads/emu-2.2-release/x86_64-w64-mingw32/lib32
+	*  https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/+/refs/heads/emu-2.2-release/x86_64-w64-mingw32/lib32
 	
 4.	Add mingw capability to <C>:\Python27\Lib\distutils\distutils.cfg, by adding the following lines:
 	```
@@ -124,10 +126,16 @@ Quick usage example
 
 1. Run cmd.
 
-2. Set path by the following; beyond the typical python path, mingw and visual studio msvcr90.dll paths have been added to resolve vcvarsall.bat related errors:
+2. Set path by the following; beyond the typical python path, mingw and visual studio msvcr90.dll paths have been added to resolve vcvarsall.bat related errors 
+	* Note: Adjust according to your Visual Studio 9, Python27 and MingW root based directories.
+		* Where  Visual Studio 9 = VS2008ExpressENUX1397868.iso from step 6 in "**Patches and non-regular python installs**".
+	
 	* "PATH=C:/Python27/;C:/MinGW/bin;C:/Program Files (x86)/Microsoft Visual Studio 9.0/VC/redist/Debug_NonRedist/x86/Microsoft.VC90.DebugCRT"
 	
 3. Finally, use command from original repo, this example is a command I prepared based on the repo:
 	* It should work if you had first navigated to the repo directory. The command runs on test data of genome sequence information in fullset_test.csv as well as the optimal pretrained models in the repository.
 	
 	* Command: **python predict_only.py --input_file data/DNA_data/fullset_test.csv --model_path final_ViraMiner/best_ViraMiner_end2end.hdf5 > output_preds.txt**
+	
+4. A succeful setup means that you see the following step, with a few warnings, and 0 errors:
+	

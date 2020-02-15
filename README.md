@@ -34,6 +34,8 @@ As this is the first known attempt, [commencing on January 29 2020](https://gith
   
 * Note: Suggestions for other paths are welcome.
 
+'''Update''': [CT Scan based diagnostic by human radiologists, have outpaced dna testing, and had lent to China's report of ~15,000 cases overnight.](https://www.auntminnie.com/index.aspx?sec=sup&sub=cto&pag=dis&itemId=128140) by extension, apart from human radiologist detection, perhaps an ai based image detection solution can speed things up even faster.
+
 # WHY?
 
 * The nCov 2019 (Coronavirus Strain 2019/2020) is spreading rapidly, with a [mortality rate between 2% and 4%](https://www.worldometers.info/coronavirus/).  

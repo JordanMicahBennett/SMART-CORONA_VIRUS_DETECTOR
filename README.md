@@ -4,7 +4,9 @@ Jordan Micah Bennett, software engineer/creator of ["RobotizeJa"](https://github
 # SMART-NCOV-CORONA_VIRUS_DETECTOR
 The aim is to develop a quick way to detect the nCov 2019 (Coronavirus 2019/2020, also called "Covid-19") strain, with the plan to use artificial neural networks or other machine learning model types.
 
-A viable path could resemble:
+A viable image based path reasonable resembles: [SMART-SMART-CT-SCAN_BASED-COVID19_VIRUS_DETECTOR](https://github.com/JordanMicahBennett/SMART-CT-SCAN_BASED-COVID19_VIRUS_DETECTOR/blob/master/README.md)
+
+A viable genome based path could resemble:
 
    * (a) Dna from person to be screened → (b) Genome data from MinION device → (c) Trained algorithm that has been built to distinguish between nCov -positive genome data, and healthy or rather nCov-negative genome data → (d) prediction-classes: nCov[~1] or no-nCov [~0]
 
